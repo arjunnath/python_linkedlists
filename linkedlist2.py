@@ -17,5 +17,3 @@ class Node :
         self.nextnode = i
         i.prevnode = self
         return i
-
-
