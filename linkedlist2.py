@@ -20,7 +20,7 @@ class DoubleLinkedList :
         if self.listptr is None :
             raise Exception("List object has no Node")
         if val is None :
-            pass # do nothing
+            return # do nothing
         i = Node(val)
         if self.listptr.nextnode is None:
             self.listptr.nextnode = i
